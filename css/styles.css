@@ -1,0 +1,478 @@
+	/*NiteStat Design*/
+
+	/*Reset CSS*/
+body, h1,h2, h3, h4, h5, h6, p, li, ol, ul {
+	margin: 0;
+	padding:0;
+	}
+
+
+
+	
+body{
+	background : url( "../pictures/starryskyedit3.jpg ") no-repeat;
+	background-color: #070510;
+	margin: 0 auto;
+	background-position: center top;
+	background-attachment: fixed;
+
+
+}
+ul{
+	list-style: none;
+}
+
+h1 a{background: url( "../pictures/watchdogmedicallogo.png" ) no-repeat;
+ text-indent: -9999px;
+ display: inline-block;
+ height: 180px;
+ width: 100%;
+ margin: 9% 9%;
+
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.serif{
+	font-family:   ;
+
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	background-color: #0059D1;
+	margin: 0 auto; 
+	width: 1200px;
+	position: relative;
+	min-height: 1000px;
+	border-radius: 5px;
+	padding-bottom: 2%;
+
+}
+#top{
+	width: 100%; 
+	margin-top: 2%;
+
+}
+#logo{
+	float: left;
+	width: 20%;
+	margin-bottom: 1%;
+
+}
+#slogan{
+	float: right;
+	font-size: 26px;
+	width: 30%;
+	background-color: #C7D8ED;
+	margin-top: 2%;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #888888;
+	margin-right: 2%;
+	padding: 2% 2%;
+	font-style: italic;
+	
+
+}
+#searchbox{
+	float: right;
+	width: 30%;
+
+}
+#searcher{
+
+}
+#nav{ 
+	clear: both;
+	min-width: 98%;
+	background: #8BA9F9;
+	margin: 2% 0 2% 2%;
+	border-radius: 5px;
+
+}
+#picshow{
+	margin: 0 auto;
+	min-height: 250px;
+
+}
+#myzone{
+
+}
+#middlezone{
+	min-height: 500px;
+	background-color:#0059D1;
+
+
+}
+#artpic1{
+	min-height: 400px;
+	background-color: purple;
+	width: 26%;
+	float: left;
+	margin: 2% 2%;
+	padding-bottom: 2%
+	
+}
+
+#artpic1 h5{
+	text-align: center;
+	font-size: 26px;
+	color: #C7D8ED;
+
+}
+#art1{
+
+	background-color: #C7D8ED; 
+	max-width: 46%;
+	float: left;
+	margin-top: 2%;
+	border-radius: 10px;
+	padding: 2% 2% 2% 2%;
+	font-size: 25px;
+
+
+}
+#quicklinks{
+	background-color: #FCA105;
+	min-width: 15%;
+	min-height: 400px;
+	margin: 2% 2% 0 2%;
+	float: left;
+	padding-left: 1%; 
+
+}
+
+#quicklinks a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #00008B;
+}
+#quicklinks h4{
+	font-size: 24px;
+	text-align: center;
+}
+
+#bottomzone{
+	background-color: #0059D1;
+	margin: 2% 2%;
+	min-height: 500px
+
+}
+#clear{
+clear: both;
+}
+
+#artpic2{
+	float: left;
+	background-color: #23D31D;
+	min-width: 20%;
+	margin-right: 2%;
+}
+#centernav{
+	float: left;
+	background-color: silver; 
+	min-height: 250px;
+	width: 41%;
+	padding-right: 2%;
+	padding-left:2%;
+	border-radius: 10px;
+}
+#artcomplink{
+	float: left;
+	background-color: darkblue;
+	height: 250px;
+	min-width: 23%;
+	margin-left: 2%;
+
+}
+#bottomnavbar{
+	max-height: 200px;
+	position: absolute;
+	float: left;
+	background-color: #FCA105;
+	margin: 2% 2%;
+
+
+}
+
+/*Top level navigation*/
+
+
+#nav ul{ 
+
+
+
+}
+#nav ul li{
+
+	background-color: #FCFCFC;
+	float: left;
+	position:relative;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 5px;
+	font-size: 32px;
+
+
+}
+
+#nav ul li a{
+background-color: #EA272E;
+color: white;
+padding: 5px 5px;
+margin: 5px 5px;
+display: inline-block;
+text-decoration: none;
+font-size: 28px;
+text-transform: uppercase;
+border-radius:5px;
+font-color:#F9F109;
+
+}
+
+#nav ul li a:hover{
+	color: #EA272E;
+	background-color: white;
+}
+
+#nav ul li ul{
+	position: absolute;
+	left: -9999px ;
+	z-index: 20;
+}
+
+#nav ul li:hover ul{
+	left: 1px;
+	z-index: 20;
+}
+#nav ul li ul li{
+	clear: both;
+}
+#nav ul li ul li a{
+	float: left;
+	display:inline-block ;
+	position: relative;
+
+}
+
+
+
+
+
+#nav ul li ul li ul{
+	position: absolute;
+	left: -9999px;
+
+}
+
+
+#nav ul li ul li a{
+	float: left;
+		
+	}
+#centernav ul li a{
+	float:left;
+	position:relative;
+	display:inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	margin: 10px 10px;
+	padding: 10px 6px;
+	background-color: #4F6CEA;
+
+}
+
+#artpic1 img{
+	height: 150px;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10%
+
+}
+
+#artpic1 iframe{
+
+	
+}
+
+#content1 p ul 
+
+/*centernav edits*/
+
+
+#centernav ul li a{
+	border-radius: 5px;
+
+}
+
+.youtubeicon li a{
+background:url("../pictures/youtubespritesheet.png");
+display: inline-block;
+height: 43px;
+width: 98px;
+text-indent: -9999px;
+margin: 2% 2%;
+}
+
+.youtubeicon li:hover a{
+	background-position:-10px -43px;
+
+}
+	/*.youtubeicon li:first-child a:hover{
+	background-position: 0 -55px;}*/
+
+
+
+/* Media edits*/
+@media screen and (max-width: 1200px){
+	.container{
+		width: 100%;
+	}
+	#nav ul li:first-child{
+		position: relative;
+		z-index: 20;
+	}
+	#nav ul li:nth-child(2){		
+		position: relative;
+		z-index: 21;
+}	
+}
+@media screen and (max-width: 1200px){
+	#art1, #quicklinks{
+		float: none;
+		width: 100%;
+}
+}
+@media screen and (max-width: 600px){
+	#artpic1{
+		width: 100%;
+	}
+
+	#art1, #quicklinks{
+		clear: both;
+	}
+	#artpic1{
+		clear: both;
+	}
+	#centernav{
+		width: 100%
+	}
+	#nav{
+	margin: 0 0; 
+	}
+	#nav ul li{
+		float: none;
+		width: 100%;
+	}
+	#nav ul li a{
+		width: 100%;
+		text-align: center;
+		border-left: none;
+		border-bottom: 2px solid #ffffff;
+	}
+	#nav ul li:nth-child(5) a{
+		border-bottom: none;
+	}
+	#nav ul li ul{
+		
+	}
+	#nav ul li:hover ul{
+		position: relative;
+		top:0;
+	}
+}
+
+	
+
+
+
+
+
+/* Fonts and styles
+
+Bell MT for the names and Headings
+
+ask about plugin for more fonts*/
+
+	/* Other Pages, 4 content*/
+
+.desc{
+	margin: 2% 2%;
+	width: 94%;
+	background-color: #C7D8ED;
+	border-radius: 5px;
+	font-size: 20px;
+	padding-left: 2%;
+	text-transform: capitalize;
+}
+
+
+.pagecontent{
+	margin: 0 auto;
+	width: 96%;
+	min-height: 500px;
+	background-color: #0059D1 ;
+	padding: 2% 2%;
+	min-height: 1000px;
+}
+
+.box1{
+	max-width: 26%%;
+	float: left;
+	margin: 3% 2%;
+	font-color: white;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	border-radius: 5px;
+
+	
+}	
+.box2{
+	background-color: #C7D8ED;	
+	width: 64%;
+	float: left;
+	font-size: 26px;
+	padding: 1% 1%;
+	border-radius: 5px;
+
+}
+.box3{
+	margin: 2% 2%;
+	float: left;
+
+}
+
+.box4{
+	float: left;
+	background-color:#C7D8ED ;
+	max-width: 63%;
+	margin: 2% 2%;
+	padding: 1% 1%;
+	font-size: 26px;
+	border-radius: 5px;
+}
+
+ /* Other Pages, 2 content*/
+
+ {
+
+
+ }
+
+
+ .content1{
+ 	background-color: #C7D8ED;
+ 	width: 80%;
+ 	margin-left: 10%;
+ 	margin-right: 10%;
+ 	border-radius: 5px;
+ 	padding: 2% 2%;
+ 	font-size: 24px;
+ 	margin-bottom: 2%;
+
+ }
