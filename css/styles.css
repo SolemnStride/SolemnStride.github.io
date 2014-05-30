@@ -386,6 +386,15 @@ margin: 2% 2%;
 		position: relative;
 		top:0;
 	}
+
+	.box2{
+
+width: 90%;
+
+	}
+	.box4{
+width: 90%;
+	}
 }
 
 	
@@ -427,8 +436,9 @@ ask about plugin for more fonts*/
 	float: left;
 	margin: 3% 2%;
 	font-color: white;
-	transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
 	border-radius: 5px;
 
 	
