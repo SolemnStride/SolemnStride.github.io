@@ -192,7 +192,7 @@ clear: both;
 }
 #bottomnavbar{
 	max-height: 200px;
-	position: absolute;
+	position: relative;
 	float: left;
 	background-color: #FCA105;
 	margin: 2% 2%;
