@@ -170,7 +170,7 @@ clear: both;
 #artpic2{
 	float: left;
 	background-color: #23D31D;
-	min-width: 20%;
+	width: 20%;
 	margin-right: 2%;
 }
 #centernav{
@@ -360,7 +360,8 @@ margin: 2% 2%;
 		clear: both;
 	}
 	#centernav{
-		width: 100%
+		width: 96%;
+		margin: 2% 2%;
 	}
 	#nav{
 	margin: 0 0; 
@@ -459,13 +460,9 @@ ask about plugin for more fonts*/
 
  /* Other Pages, 2 content*/
 
- {
 
 
- }
-
-
- .content1{
+.content1{
  	background-color: #C7D8ED;
  	width: 80%;
  	margin-left: 10%;
@@ -476,3 +473,20 @@ ask about plugin for more fonts*/
  	margin-bottom: 2%;
 
  }
+
+.content2{
+ 	background-color: #C7D8ED;
+ 	width: 80%;
+ 	margin-left: 10%;
+ 	margin-right: 10%;
+ 	border-radius: 5px;
+ 	padding: 2% 2%;
+ 	font-size: 24px;
+ 	margin-bottom: 2%;
+ }
+
+.content2 p:hover a{
+	display: inline-block;
+	text-indent: -9999px;
+
+}
