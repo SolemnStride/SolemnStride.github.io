@@ -170,8 +170,8 @@ clear: both;
 #artpic2{
 	float: left;
 	background-color: #23D31D;
-	width: 20%;
-	margin-right: 2%;
+	width: 27%;
+	margin-right: 3%;
 }
 #centernav{
 	float: left;
@@ -192,7 +192,7 @@ clear: both;
 }
 #bottomnavbar{
 	max-height: 200px;
-	position: absolute;
+	position: relative;
 	float: left;
 	background-color: #FCA105;
 	margin: 2% 2%;
@@ -204,6 +204,7 @@ clear: both;
 
 
 #nav ul{ 
+
 
 
 
@@ -275,6 +276,18 @@ font-color:#F9F109;
 	float: left;
 		
 	}
+
+#centernav ul{
+	text-indent: 345px;
+	border-radius: 5px;
+	font-size: 
+}
+
+#centernav ul li a{
+	text-align: left;
+
+}
+
 #centernav ul li a{
 	float:left;
 	position:relative;
@@ -385,15 +398,6 @@ margin: 2% 2%;
 	#nav ul li:hover ul{
 		position: relative;
 		top:0;
-	}
-
-	.box2{
-
-width: 90%;
-
-	}
-	.box4{
-width: 90%;
 	}
 }
 
